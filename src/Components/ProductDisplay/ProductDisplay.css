@@ -1,0 +1,105 @@
+.productdisplay{
+    display: flex;
+    margin: 0px 170px;
+    margin-top: 30px;
+}
+.productdisplay-left{
+   display: flex;
+   gap: 17px;
+}
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.productdisplay-img-list img{
+    height: 163px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.productdisplay-img-list img:hover{
+    transform: scale(1.1);
+}
+.productdisplay-main-img{
+    width: 586px;
+    height: 700px;
+    border-radius: 30px;
+}
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 600;
+}
+.productdisplay-right-stars{
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  gap: 5px;
+  color: #1c1c1c;
+  font-size: 16px;
+}
+.productdisplay-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.productdisplay-roght-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.productdisplay-roght-price-new{
+    color: #ff4141;
+}
+.productdiaply-right-description{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.productdisplay-right-size h1{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.productdiaplay-right-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+.productdiaplay-right-sizes div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.productdisplay-right button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 225px;
+    height: 60px;
+    border-radius: 75px;
+    background:#ff4141;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border: none;
+}
+.productdisplay-right button:hover{
+    background-color:#818181;
+}
+.product-display-right-category span{
+    font-weight: 450;
+    font-size: 22px;
+}
+.product-display-right-category{
+    font-size: 20px;
+}
